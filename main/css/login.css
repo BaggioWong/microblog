@@ -1,0 +1,254 @@
+/*login.css*/
+
+/*****************************************/
+/* 				FONT IMPORTS			 */
+/*****************************************/
+@font-face{
+    font-family: "HanziPen TC";
+    src: url('../fonts/HanziPen.ttc'),
+    url('Thonburi-Bold.eot'); 
+}
+
+@font-face{
+    font-family: "Avenir Next";
+    src: url('../fonts/Avenir Next.ttc'),
+    url('Thonburi-Bold.eot'); 
+}
+
+/*****************************************/
+/* 				ELEMENT STYLES		 	 */
+/*****************************************/
+* {
+	font-family: "Heiti SC", "LiHei Pro", "Microsoft JhengHei", "HanziPen TC";	/* default Chinese fonts */
+}
+
+a {
+	text-decoration: underline;
+	color: #a4a2a7;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+a:active {
+	color: #608b32;
+}
+
+body {
+	background-image: url('../images/cat-wallpaper-2.jpg');
+	background-color: #f6f0e0;
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-attachment: fixed;
+	margin: 0px;
+}
+
+input {
+	width: 250px;
+	height: 30px;
+	padding: 2px 7px;
+	margin: 5px auto;
+	font-size: 14px;
+	font-family: "Avenir Next", "Gill Sans", Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+	color: #cbcbcb;
+	border: 1px solid #d6d4c9;
+
+}
+
+ol {
+	font-size: 14px;
+}
+
+li {
+	line-height: 25px;
+	color: #757571;
+}
+
+p.label {
+	font-family: Arial, sans-serif;
+	font-size: 20px;
+	text-align: left;
+	margin-left: 15px;
+	color: #757571;
+}
+
+div#wrapper {
+	width: 1020px;
+	padding: 0px;
+	margin: auto;
+	background: white;
+	opacity: 0.8;
+	height: 100%;
+}
+
+div#banner {
+	width: 1000px;
+	height: 200px;
+	padding: 10px;
+	background-image: url('../images/header-background.jpg');
+	background-size: 500px;
+	background-repeat: no-repeat;
+	background-position: right;
+	opacity: 1;
+	border-bottom: 3px solid #f6f0e0;
+}
+
+div#content {
+	width: 955px;
+	min-height: 100px;
+	overflow: hidden;
+	margin: 30px auto;	
+}
+
+div#left-column {
+	width: 625px;
+	float: left;
+}
+
+div#new-users {
+	width: 380px;
+	min-height: 80px;
+	overflow: hidden;
+	padding: 5px 0px 5px 5px;
+	float: left;
+}
+
+div#new-users-wrapper {
+	width: 375px;
+	min-height: 80px;
+	overflow: hidden;
+	margin: 0px auto;
+}
+
+div#new-user-singular {
+	width: 62px;	/* watch out for browser issues */
+	height: 100px;
+	margin: 5px;
+	float: left;
+	overflow: hidden;
+}
+
+p.username {
+	margin: 5px 0px 0px 0px;
+	font-size: 12px;
+	text-align: center;
+	color: #757571;
+}
+
+img.single-user {
+	width: 62px;
+}
+
+div#popular-users{
+	width: 220px;
+	padding: 5px 5px 5px 10px;
+	float: right;
+	border-left: 1px solid #d6d4c9;
+}
+
+ol {
+	padding: 0px 0px 0px 20px;
+	margin: 10px;
+	font-family: arial, sans-serif;
+}
+
+li {
+	padding: 0px;
+	margin: 5px 0px;
+}
+
+span#popular-user-followers {
+	font-family: arial, sans-serif;
+	float: right;
+}
+
+div#right-column {
+	width: 300px;
+	float: right;	
+}
+
+div.right-column-module {
+	width: 300px;
+	height: auto;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+button#register-button {
+	width: 290px;
+	font-size: 16px;
+	padding: 15px 0px;
+	background-color: gray;
+	border: 2px solid gray;
+	outline: none;
+	color: white;
+	font-weight: bold;
+}
+
+button#register-button:hover {
+	color: gray;
+	background-color: #e1dfe3;
+	border: 2px #e1dfe3 solid;
+}
+
+table#login {
+	width: 280px;
+	margin: auto;
+	padding: 10px;
+	font-family: arial, sans-serif;
+	background-color: #f6f0e0;
+}
+
+td.login {
+	text-align: center;
+}
+
+input#remember {
+	width: 30px;
+	height: 14px;
+}
+
+div.remember-me-text, .signup{
+	color: #757571;
+	font-size: 12px;
+	padding-top: 2px;
+
+}
+
+hr.module-separator {
+	border-top: 1px solid #d6d4c9;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+
+}
+
+button#login-button {
+	width: 100px;
+	font-size: 14px;
+	padding: 10px;
+	border: none;
+	color: white;
+	background-color: gray;
+	outline: none;
+}
+
+button#login-button:active{
+	background-color: white;
+	color: gray;
+}
+
+div.signup {
+	text-align: center;
+}
+
+div#footer {
+	width: 975px;
+	padding: 10px;
+	margin: 10px auto 0px auto;
+	text-align: center;
+	font-size: 14px;
+}
+

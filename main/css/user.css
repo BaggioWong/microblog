@@ -1,0 +1,23 @@
+#hidden-username {
+	display:none;
+}
+
+#follow-button {
+	width: 100px;
+	height: 40px;
+	margin: auto auto 30px auto; 
+	font-size: 16px;
+	background-color: #f6f0e0;
+	border: none;
+	border-radius: 7px;
+
+}
+
+#follow-button:hover {
+	background-color: #E1F6E0;
+	color: #608b32;
+}
+
+#follow-button:active {
+	border: 1px solid #608b32;
+}

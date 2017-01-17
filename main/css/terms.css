@@ -1,0 +1,22 @@
+@font-face{
+    font-family: "HanziPen TC";
+    src: url('../fonts/HanziPen.ttc'),
+    url('Thonburi-Bold.eot'); 
+}
+
+@font-face{
+    font-family: "Avenir Next";
+    src: url('../fonts/Avenir Next.ttc'),
+    url('Thonburi-Bold.eot'); 
+}
+
+* {
+	font-family: "Heiti SC", "Microsoft JhengHei", "HanziPen TC";	/* default Chinese fonts */
+	line-height: 25px;
+}
+
+div#title {
+	width: auto;
+	margin: auto;
+	text-align: center;
+}

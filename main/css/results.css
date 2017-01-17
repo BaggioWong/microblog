@@ -1,0 +1,63 @@
+/* results.css */
+
+hr {
+	width: 800px;
+	border-top: none;
+	border-left: none;
+	border: right: none;
+	border-bottom: 1px solid #d6d4c9;
+}
+
+.tweet-functions span {
+	display: none;
+}
+
+#logo-middle {
+	width: 800px;
+	height: 75px;
+	margin: 20px auto;
+	float: left;
+	text-align: center;
+}
+
+#page-title {
+	padding: 20px 0px;
+	font-size: 20px;
+	color: gray;
+}
+
+.single-tweet-wrapper{
+	display:none;
+}
+
+
+.left-column-module{
+	margin: auto;
+}
+
+.user {
+	display: inline-block;
+}
+
+#personal-profile {
+	width: 250px;
+	border: 1px solid #d6d4c9;
+	margin: 0px 10px 10px 0px;
+	border-radius: 5px;
+	/*display: none;*/
+}
+
+#personal-profile:last-of-type {
+	display:none;
+}
+
+#profile-pic {
+	padding-top: 15px;
+}
+
+#profile-meta-small {
+	width: 180px;
+	margin: 20px auto -10px auto;
+	padding: 5px;
+	text-align: center;
+}
