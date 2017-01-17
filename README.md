@@ -1,5 +1,5 @@
 # Microblog
-A microblog featuring basic features such as
+A microblog featuring basic features such as:
 - Tweeting
 - Retweeting
 - Replying
