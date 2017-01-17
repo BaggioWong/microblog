@@ -1,2 +1,9 @@
-# microblog
-A microblog featuring basic features such as tweeting, retweeting, replying, searching users and tweets, visiting someone else's page, etc. Written with Javascript, PHP and MySQL.
+# Microblog
+A microblog featuring basic features such as
+- Tweeting
+- Retweeting
+- Replying
+- Searching users and tweets
+- Visiting someone else's page, etc. 
+
+Written in Javascript, PHP and MySQL.
